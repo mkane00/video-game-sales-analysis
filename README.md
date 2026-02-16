@@ -43,8 +43,8 @@ Saved in the `/visuals` folder (charts exported from Excel):
   
 ## 📁 Repository Structure
 
+documents/.gitkeep
 excel/.gitkeep
-
 visuals/.gitkeep
 
 ## 👩‍💻 Author
