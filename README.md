@@ -38,9 +38,10 @@ Saved in the `/visuals` folder (charts exported from Excel):
 - Sales by platform
 - Sales by genre
 - Regional sales comparison
-
+- Power Point Presentation
+  https://drive.google.com/file/d/1O7Cnfe9o5QeEuEHdye5h9gydjtCYSxYf/view?usp=drive_link
+  
 ## 📁 Repository Structure
-data/.gitkeep
 
 excel/.gitkeep
 
