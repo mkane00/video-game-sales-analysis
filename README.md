@@ -1,74 +1,42 @@
-# Instacart Grocery Basket Analysis
+# Video Game Sales Analysis (Excel)
 
 ## 📌 Project Overview
+This project analyzes global video game sales data to identify sales trends by platform, genre, region, and publisher. The goal is to summarize performance drivers and communicate insights through clear Excel visualizations.
 
-This project analyzes grocery basket data to uncover customer purchasing patterns and segment customers based on buying behavior. The goal is to generate actionable insights that can support targeted marketing, product placement, and operational decision-making. As a marketing analyst at Instacart, I want to understand customer behavior by time, region, and segment so I can schedule campaigns and promotions more effectively and increase conversion while protecting margin.
+## 🎯 Business Questions
+- Which platforms generate the highest global sales?
+- What genres perform best overall and by region?
+- How do sales differ across North America, Europe, and Japan?
+- Which publishers dominate global sales?
 
-## 🎯 Business Objectives
+## 🗂️ Data
+Global video game sales dataset including:
+- Title, platform, genre, publisher
+- Regional sales (NA, EU, JP, Other) and Global sales
+- Release year (if available)
 
-* Identify common purchasing patterns and frequently bought products
-* Segment customers based on shopping behavior and order characteristics
-* Support data-driven marketing and merchandising strategies
-
-## 📂 Data Source
-
-* Instacart Grocery Basket dataset
-* Includes information on orders, products, departments, aisles, and customers
-
-## 🛠️ Tools & Technologies
-
-* **Python** (Pandas, NumPy)
-* Jupyter Notebook
-* Data cleaning and exploratory data analysis (EDA)
-* Data visualization (Matplotlib / Seaborn)
+## 🛠️ Tools
+- **Excel**
+  - Data cleaning and formatting
+  - Pivot tables
+  - Grouping and summarization
+  - Charts and dashboards
 
 ## 🔍 Key Steps
+1. Cleaned and standardized fields (missing values, duplicates, formatting)
+2. Created pivot tables to summarize sales by platform, genre, and region
+3. Built charts to visualize trends and comparisons
+4. Documented key insights and recommendations
 
-1. Data loading and initial inspection
-2. Data cleaning and handling missing values
-3. Feature engineering (order frequency, reorder behavior, basket size)
-4. Exploratory data analysis
-5. Customer segmentation and pattern analysis
-6. Visualization of key findings
-
-## 📊 Key Insights 
-
-* Customers place most orders during a consistent “peak window” (often mid-day/afternoon). This is useful for staffing, promos, and delivery capacity planning.
-* A large portion of items in baskets are reordered products.
-* A few departments (typically groceries like produce/dairy/beverages/snacks) account for most items ordered. This helps prioritize homepage placement, featured deals, inventory planning, and “top department” campaigns.
+## 📊 Key Insights (Examples)
+- A small number of platforms account for most global sales
+- Genre preferences vary significantly by region
+- Top publishers consistently drive higher global sales
 
 ## 📈 Visualizations
-
-* Bar Chart - Loyalty Level
-* Heatmap - Customer profile by age group
-* Histogram - Orders per hour of day
-
+Saved in the `/visuals` folder (charts exported from Excel):
+- Sales by platform
+- Sales by genre
+- Regional sales comparison
 
 ## 📁 Repository Structure
-
-```
-instacart-grocery-basket-analysis/
-├── data/
-├── notebooks/
-│   └── instacart_analysis.ipynb
-├── visuals/
-├── README.md
-```
-
-## 🚀 Next Steps
-
-* Benchmarking: Compare patterns with industry grocery e-commerce
-* Validate segments by clustering and predict next month behavior
-* Approach your segmentation by RFM (Recency, Frequency, Monetary). VIP, Loyal, Promising, At Risk, Casual
-
-## Recommendations
-
-* Daypart ad scheduling + offer design. Peak hours: prioritize conversion campaigns and higher-margin categories.
-* Department bundles aligned to customer profiles. Create 3–5 bundles by department affinity and promote by segment.
-* Retention strategy using improved loyalty segmentation (RFM). Replace single-variable loyalty with RFM segments.
-  VIP/Loyal: early access to delivery slots + personalized recommendations
-
-## 👩‍💻 Author
-
-**Mary Kane**
-Data Analyst | Bilingual (English–Spanish)
