@@ -40,3 +40,12 @@ Saved in the `/visuals` folder (charts exported from Excel):
 - Regional sales comparison
 
 ## 📁 Repository Structure
+data/.gitkeep
+
+excel/.gitkeep
+
+visuals/.gitkeep
+
+## 👩‍💻 Author
+**Mary Kane**  
+Data Analyst | Bilingual (English–Spanish)
